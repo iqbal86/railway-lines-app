@@ -17,7 +17,7 @@ Make sure you have the following installed:
 
 ```
 git clone https://github.com/iqbal86/railway-lines-app.git
-cd hacker-news-app
+cd railway-lines-app
 ```
 
 2. Install dependencies:
