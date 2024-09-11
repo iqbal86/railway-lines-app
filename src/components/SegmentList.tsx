@@ -7,11 +7,11 @@ type SegmentListProps = {
   onDeleteSegment: (segment: RailwayLine) => void
 }
 
-const SegmentList: React.FC<SegmentListProps> = ({
+const SegmentList = ({
   segments,
   onEditSegment,
   onDeleteSegment,
-}) => {
+}: SegmentListProps) => {
   return (
     <div>
       <h2>Segment List</h2>
