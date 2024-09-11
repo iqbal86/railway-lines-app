@@ -5,8 +5,8 @@ import {
 } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import { MapProps } from '../types/types'
+import React from 'react'
 
-// Adjusted to use the correct type and defaults
 const Map = ({ lines = [], onLineHover }: MapProps) => {
   return (
     <LeafletMapContainer
