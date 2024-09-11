@@ -1,5 +1,5 @@
 /* eslint-disable react-refresh/only-export-components */
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { RailwayLine } from '../types/types'
 
 type SegmentProps = {

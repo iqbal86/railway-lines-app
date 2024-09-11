@@ -1,4 +1,3 @@
-import React from 'react'
 import { RailwayLine } from '../types/types'
 
 type SegmentListProps = {
